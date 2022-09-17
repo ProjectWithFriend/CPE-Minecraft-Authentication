@@ -10,7 +10,8 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <timestamp>${maven.build.timestamp}</timestamp>
 
-        <mc.version>1.19</mc.version> <!-- change version -->
+        <mc.version>1.19</mc.version>                       <!-- default mc version -->
+        <plugins.dir>${project.basedir}/out</plugins.dir>  <!-- default output dir -->
     </properties>
 
     <groupId>__PROJ_GROUP__</groupId>
@@ -35,7 +36,7 @@
 
     <build>
         <finalName>${project.artifactId}-${mc.version}-${project.version}</finalName>
-        <directory>${env.PLUGIN_DIR}</directory>
+        <directory>${plugins.dir}</directory>
 
         <resources>
             <resource>
