@@ -8,11 +8,6 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
-        <maven.build.timestamp.format>dd/MM/yyyy HH:mm</maven.build.timestamp.format>
-
-        <build.date>${maven.build.timestamp}</build.date>
-        <build.number>UNUSED</build.number>
-
         <mc.version>1.19</mc.version>                       <!-- default mc version -->
         <plugins.dir>${project.basedir}/out</plugins.dir>   <!-- default output dir -->
     </properties>
@@ -29,26 +24,22 @@
     </repositories>
 
     <dependencies>
+        <!-- spigot api -->
         <dependency>
             <groupId>org.spigotmc</groupId>
             <artifactId>spigot-api</artifactId>
             <version>${mc.version}-R0.1-SNAPSHOT</version>
-            <scope>provided</scope>
+        </dependency>
+        <!-- plugin annotations -->
+        <dependency>
+            <groupId>org.spigotmc</groupId>
+            <artifactId>plugin-annotations</artifactId>
+            <version>1.2.3-SNAPSHOT</version>
         </dependency>
     </dependencies>
 
     <build>
         <finalName>${project.artifactId}-${mc.version}-${project.version}</finalName>
         <directory>${plugins.dir}</directory>
-
-        <resources>
-            <resource>
-                <directory>src/main/resources</directory>
-                <filtering>true</filtering>
-                <includes>
-                    <include>plugin.yml</include>
-                </includes>
-            </resource>
-        </resources>
     </build>
 </project>
