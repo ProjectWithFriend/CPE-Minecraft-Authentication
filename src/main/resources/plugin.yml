@@ -1,0 +1,13 @@
+main: com.${project.groupId}.${plugin.artifactId}.Main
+
+version: ${project.version}
+api-version: ${mc.version}
+
+build-date: ${timestamp}
+build-number: ${build.number}
+
+name: __NAME__
+author: __AUTHOR__
+
+commands:
+    # commands
