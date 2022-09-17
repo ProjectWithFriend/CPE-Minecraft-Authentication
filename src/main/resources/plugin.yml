@@ -1,6 +1,6 @@
 version: ${project.version}
 api-version: ${mc.version}
-build-date: ${timestamp}
+build-date: ${build.date}
 build-number: ${build.number}
 
 main: com.groupId.artifactId.Main
@@ -8,4 +8,7 @@ name: __NAME__
 author: __AUTHOR__
 
 commands:
-    # commands
+  # commands
+
+permissions:
+  # permissions
