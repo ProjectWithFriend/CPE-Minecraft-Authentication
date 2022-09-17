@@ -20,12 +20,3 @@ To fully set up the plugin, there are a few preliminary steps to take before ful
 * `__PROJ_GROUP__` - the project's group id.
 * `__PROJ_NAME__` - the project's artifact id (name).
 * `__PROJ_VERSION__` - the project's version (ei `1.0-SNAPSHOT`).
-
-#### In *plugin.yml*, replace:
-
-* `__NAME__` - the plugin's displayed name.
-* `__AUTHOR__` - the plugin's author.
-
-#### Main class path
-
-In *src/main/java/com/...*, replace `__PROJ_GROUP__` & `__PROJ_NAME__` with what has been specified in **pom.xml** previously.
