@@ -1,11 +1,9 @@
-main: com.${project.groupId}.${project.artifactId}.Main
-
 version: ${project.version}
 api-version: ${mc.version}
-
 build-date: ${timestamp}
 build-number: ${build.number}
 
+main: com.groupId.artifactId.Main
 name: __NAME__
 author: __AUTHOR__
 

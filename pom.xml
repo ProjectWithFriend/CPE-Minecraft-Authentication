@@ -11,7 +11,7 @@
         <timestamp>${maven.build.timestamp}</timestamp>
 
         <mc.version>1.19</mc.version>                       <!-- default mc version -->
-        <plugins.dir>${project.basedir}/out</plugins.dir>  <!-- default output dir -->
+        <plugins.dir>${project.basedir}/out</plugins.dir>   <!-- default output dir -->
     </properties>
 
     <groupId>__PROJ_GROUP__</groupId>

@@ -1,4 +1,4 @@
-package com.__PROJ_GROUP__.__PROJ_NAME__;
+package com.groupId.artifactId;
 
 import org.bukkit.plugin.java.JavaPlugin;
 
