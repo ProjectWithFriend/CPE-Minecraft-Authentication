@@ -1,4 +1,4 @@
-main: com.${project.groupId}.${plugin.artifactId}.Main
+main: com.${project.groupId}.${project.artifactId}.Main
 
 version: ${project.version}
 api-version: ${mc.version}
