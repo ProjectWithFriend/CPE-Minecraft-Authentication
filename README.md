@@ -8,7 +8,7 @@ This is repo provides some template code for setting up a plugin with **Maven**.
 #### Default output directory: `out/`
 > ℹ️ To make your life easier, the output directory of the jar file can be specified directly to your spigot server *plugins* directory by updating the `plugins.dir` maven property.
 
-#### Default file name: `__PROJ_NAME__-mc.version-__PROJ_VERSION__-`
+#### Default file name: `__PROJ_NAME__-mc.version-__PROJ_VERSION__.jar`
 > ℹ️ The name of the archived jar file name.
 
 Maven properties can be changed directly in **pom.xml** or, assuming you are using Intellij, via a **Run Configuration** (Run > Edit Configurations... > *maven run*, under *Java Options*/*Properties*).
