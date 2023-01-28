@@ -61,7 +61,6 @@
                 <artifactId>copy-rename-maven-plugin</artifactId>
                 <version>1.0.1</version>
                 <executions>
-                    <!-- comment out before doing manual deployment -->
                     <execution>
                         <id>rename-file</id>
                         <phase>package</phase>
