@@ -8,11 +8,11 @@ import org.bukkit.plugin.java.annotation.plugin.author.Author;
 @Plugin(name = "ExamplePlugin", version = "1.0")
 public final class Main extends JavaPlugin {
     @Override
-    public void onLoad() {  }
+    public void onLoad() { }
 
     @Override
-    public void onEnable() {  }
+    public void onEnable() { }
 
     @Override
-    public void onDisable() {  }
+    public void onDisable() { }
 }
