@@ -19,4 +19,4 @@ This is repo provides some template code for setting up a plugin with **Maven**.
 
 This template has been designed with productivity in mind. When compiling a new version of your plugin, you can configure the output directory directly into the server's plugins directory:
 
-> clean package dependency:copy -DskipTests -DmcVersion=1.2.3 -DoutputDirectory=/path/to/server/plugins
+> mvn clean package dependency:copy -DskipTests -DmcVersion=1.2.3 -DoutputDirectory=/path/to/server/plugins
