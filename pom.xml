@@ -8,12 +8,12 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
-        <mcVersion>1.19</mcVersion> <!-- default mc version -->
+        <mcVersion>1.19.2</mcVersion> <!-- default mc version -->
     </properties>
 
-    <groupId>__PROJ_GROUP__</groupId>
-    <artifactId>__PROJ_NAME__</artifactId>
-    <version>__PROJ_VERSION__</version>
+    <groupId>CPE</groupId>
+    <artifactId>CPE-Simple-Plugin-007</artifactId>
+    <version>1.0</version>
 
     <repositories>
         <repository>
